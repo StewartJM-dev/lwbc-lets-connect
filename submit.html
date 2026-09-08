@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Submit a Question — LWBC Let's Connect Podcast</title>
-<meta name="description" content="Send in a question for LWBC Let's Connect Podcast.">
+<title>Contact Living Word — LWBC Let's Connect Podcast</title>
+<meta name="description" content="Get in touch with Living Word Baptist Church in Sweet Valley, PA.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap" rel="stylesheet">
 <link rel="canonical" href="https://YOUR-DOMAIN-HERE/submit.html">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://YOUR-DOMAIN-HERE/submit.html">
-<meta property="og:title" content="Submit a Question — LWBC Let's Connect Podcast">
-<meta property="og:description" content="Send in a question for LWBC Let's Connect Podcast.">
+<meta property="og:title" content="Contact Living Word — LWBC Let's Connect Podcast">
+<meta property="og:description" content="Get in touch with Living Word Baptist Church in Sweet Valley, PA.">
 <meta property="og:image" content="https://YOUR-DOMAIN-HERE/images/banner.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Submit a Question — LWBC Let's Connect Podcast">
-<meta name="twitter:description" content="Send in a question for LWBC Let's Connect Podcast.">
+<meta name="twitter:title" content="Contact Living Word — LWBC Let's Connect Podcast">
+<meta name="twitter:description" content="Get in touch with Living Word Baptist Church in Sweet Valley, PA.">
 <meta name="twitter:image" content="https://YOUR-DOMAIN-HERE/images/banner.jpg">
 <link rel="icon" type="image/png" href="images/favicon-64.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -39,9 +39,9 @@
 
 <div class="page-intro">
   <div class="wrap">
-    <p class="eyebrow">Submit a question</p>
-    <h1>What's on your mind?</h1>
-    <p class="lede">Have a question about a message, a passage, or the Christian life? Send it to Pastor Purdy.</p>
+    <p class="eyebrow">Get in touch</p>
+    <h1>Contact Living Word</h1>
+    <p class="lede">Have a question, a prayer request, or just want to reach out? Send a message to Living Word Baptist Church.</p>
   </div>
 </div>
 
@@ -52,10 +52,9 @@
       FORM NOTE FOR JOHN:
       GitHub Pages is static and can't process form submissions server-side,
       so this form currently opens the visitor's email client via a mailto:
-      link, addressed to the address in SHOW_EMAIL at the bottom of this file.
-      TODO: SHOW_EMAIL is a placeholder — set it to the Let's Connect /
-      LWBC address once Gordon decides which one to use. Caveat: it
-      requires the visitor to have an email client configured.
+      link, addressed to the address set in SHOW_EMAIL at the bottom of this file
+      (currently lwbcsv@gmail.com). Caveat: it requires the visitor to have an
+      email client configured.
 
       UPGRADE PATH (optional, when ready): swap this for a free Formspree
       form (formspree.io) — sign up, get an endpoint, change the <form>
@@ -74,11 +73,11 @@
         <input type="email" id="q-email" name="email">
       </div>
       <div class="field">
-        <label for="q-question">Your question</label>
+        <label for="q-question">Your message</label>
         <textarea id="q-question" name="question" required></textarea>
       </div>
-      <button type="submit" class="btn btn-solid">Send question</button>
-      <p class="form-note">This opens your email app, addressed to the show, with your question filled in.</p>
+      <button type="submit" class="btn btn-solid">Send message</button>
+      <p class="form-note">This opens your email app, addressed to the church, with your message filled in.</p>
     </form>
 
   </div>
@@ -93,8 +92,7 @@
 </footer>
 
 <script>
-  // TODO: replace with the real Let's Connect / LWBC inbox before launch.
-  var SHOW_EMAIL = 'CHANGE-ME@example.com';
+  var SHOW_EMAIL = 'lwbcsv@gmail.com';
 
   document.getElementById('question-form').addEventListener('submit', function (e) {
     e.preventDefault();
@@ -102,7 +100,7 @@
     var email = document.getElementById('q-email').value.trim();
     var question = document.getElementById('q-question').value.trim();
 
-    var subject = 'Question for LWBC Let's Connect Podcast';
+    var subject = 'Message from the Living Word website';
     var bodyLines = [
       'From: ' + name + (email ? ' (' + email + ')' : ''),
       '',
