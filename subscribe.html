@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subscribe — LWBC Let's Connect Podcast</title>
+<meta name="description" content="Subscribe to LWBC Let's Connect Podcast on your favorite platform.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://YOUR-DOMAIN-HERE/subscribe.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://YOUR-DOMAIN-HERE/subscribe.html">
+<meta property="og:title" content="Subscribe — LWBC Let's Connect Podcast">
+<meta property="og:description" content="Subscribe to LWBC Let's Connect Podcast on your favorite platform.">
+<meta property="og:image" content="https://YOUR-DOMAIN-HERE/images/banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Subscribe — LWBC Let's Connect Podcast">
+<meta name="twitter:description" content="Subscribe to LWBC Let's Connect Podcast on your favorite platform.">
+<meta name="twitter:image" content="https://YOUR-DOMAIN-HERE/images/banner.jpg">
+<link rel="icon" type="image/png" href="images/favicon-64.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Let's Connect">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0c0c0b">
+<link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+
+<div class="back-bar">
+  <div class="wrap"><a href="index.html" class="back-link">&larr; Back to Home</a></div>
+</div>
+
+<header class="banner-image">
+  <img src="images/banner.jpg" alt="LWBC Let's Connect Podcast with Pastor Raymond Purdy — a ministry of Living Word Baptist Church. Faith. Truth. Real talk. Real life.">
+</header>
+
+<div class="page-intro">
+  <div class="wrap">
+    <p class="eyebrow">Subscribe</p>
+    <h1>Listen wherever you already do</h1>
+    <p class="lede">New episodes land automatically once you subscribe on any of these.</p>
+  </div>
+</div>
+
+<section style="padding-top:36px;">
+  <div class="wrap">
+
+    <!--
+      Apple Podcasts and Amazon Music link directly. Spotify links to the
+      PodPoint show page for now — that page has a working "Subscribe on
+      Spotify" option in its own Subscribe menu (confirmed by Gordon),
+      even though a direct open.spotify.com link wasn't found. Swap this
+      for a direct Spotify link once Gordon has it, for a one-tap experience
+      instead of landing on PodPoint first. iHeartRadio links directly —
+      found via a real episode URL on that platform during earlier research.
+
+      NOTE: these platform links point at the whole "LWBC Let's Connect"
+      channel, which also carries Gordon's Question Mark episodes.
+      That's fine here — this IS the channel's own show. Only this
+      site's Episodes page filters Question Mark episodes out.
+    -->
+    <ul class="platform-list">
+      <li><a href="https://podcasts.apple.com/us/podcast/lwbc-lets-connect/id1790852629" target="_blank" rel="noopener">Apple Podcasts <span class="go">Open &rarr;</span></a></li>
+      <li><a href="https://podpoint.com/lwbc-lets-connect" target="_blank" rel="noopener">Spotify <span class="go">Open &rarr;</span></a></li>
+      <li><a href="https://www.iheart.com/podcast/269-lwbc-lets-connect-259009892/" target="_blank" rel="noopener">iHeartRadio <span class="go">Open &rarr;</span></a></li>
+      <li><a href="https://music.amazon.com/podcasts/5901f79d-be4a-4436-af4f-00e7e34cf9bd/lwbc-let's-connect" target="_blank" rel="noopener">Amazon Music <span class="go">Open &rarr;</span></a></li>
+      <li><button type="button" class="platform-copy" id="rss-link">RSS Feed <span class="go" id="rss-link-status">Copy link &rarr;</span></button></li>
+    </ul>
+
+    <p class="form-note">Subscribing on any of these follows the full LWBC Let&rsquo;s Connect channel, which also includes The Question Mark Podcast with Gordon Conger.</p>
+
+  </div>
+</section>
+
+<footer class="site-footer-image">
+  <img src="images/footer.jpg" alt="LWBC Let's Connect is part of the LWBC Media Ministry. Built by Covenant Creation &amp; Design. Living Word Baptist Church, 40 Hess Lane, Sweet Valley, PA.">
+  <a class="footer-hotspot fh-lwbc-logo" href="https://www.facebook.com/profile.php?id=100064349513334" target="_blank" rel="noopener" aria-label="LWBC Media Ministry on Facebook"></a>
+  <a class="footer-hotspot fh-lwbc-text" href="https://www.facebook.com/profile.php?id=100064349513334" target="_blank" rel="noopener" aria-label="LWBC Media Ministry on Facebook"></a>
+  <a class="footer-hotspot fh-ccd-text" href="https://stewartjm-dev.github.io/covenant-creation-design" target="_blank" rel="noopener" aria-label="Covenant Creation &amp; Design"></a>
+  <a class="footer-hotspot fh-home" href="index.html" aria-label="Home"></a>
+  <a class="footer-hotspot fh-about" href="about.html" aria-label="About"></a>
+  <a class="footer-hotspot fh-episodes" href="episodes.html" aria-label="Episodes"></a>
+  <a class="footer-hotspot fh-submit" href="submit.html" aria-label="Submit a Question"></a>
+  <a class="footer-hotspot fh-subscribe" href="subscribe.html" aria-label="Subscribe" aria-current="page"></a>
+  <a class="footer-hotspot fh-lwbc-address" href="https://www.lwbcsv.com" target="_blank" rel="noopener" aria-label="Living Word Baptist Church website"></a>
+</footer>
+
+<script src="js/episodes.js?v=1"></script>
+<script>
+  var rssBtn = document.getElementById('rss-link');
+  var rssStatus = document.getElementById('rss-link-status');
+
+  rssBtn.addEventListener('click', function () {
+    var url = (typeof PODCAST_RSS_URL !== 'undefined' && PODCAST_RSS_URL) || '';
+    if (!url) return;
+
+    function showCopied() {
+      rssStatus.textContent = 'Copied!';
+      setTimeout(function () {
+        rssStatus.textContent = 'Copy link \u2192';
+      }, 2000);
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(showCopied);
+    } else {
+      // Fallback for older browsers without the Clipboard API.
+      var temp = document.createElement('textarea');
+      temp.value = url;
+      temp.style.position = 'fixed';
+      temp.style.opacity = '0';
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+      showCopied();
+    }
+  });
+</script>
+</body>
+</html>
