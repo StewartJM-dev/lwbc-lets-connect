@@ -513,15 +513,10 @@ form.question-form {
   outline: none;
 }
 
-.fh-lwbc-logo    { top: 22%; left: 1%;    width: 15.5%; height: 46%; }
-.fh-lwbc-text    { top: 37%; left: 18.5%; width: 14%;   height: 17%; }
-.fh-ccd-text     { top: 55%; left: 18.5%; width: 14%;   height: 15%; }
-.fh-home         { top: 28%; left: 34.5%; width: 6.2%;  height: 34%; }
-.fh-about        { top: 28%; left: 41%;   width: 6.2%;  height: 34%; }
-.fh-episodes     { top: 28%; left: 47.5%; width: 6.2%;  height: 34%; }
-.fh-submit       { top: 28%; left: 54%;   width: 7.5%;  height: 34%; }
-.fh-subscribe    { top: 28%; left: 61.7%; width: 6.5%;  height: 34%; }
-.fh-lwbc-address { top: 30%; left: 70%;   width: 15%;   height: 32%; }
+.fh-logo         { top: 2%;  left: 11%; width: 22%; height: 96%; }
+.fh-facebook     { top: 20%; left: 75%; width: 5%;  height: 20%; }
+.fh-youtube      { top: 20%; left: 81%; width: 5%;  height: 20%; }
+.fh-email        { top: 20%; left: 87%; width: 5%;  height: 20%; }
 
 /* ---------- Responsive ---------- */
 
