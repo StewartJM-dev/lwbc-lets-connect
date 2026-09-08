@@ -12,7 +12,6 @@ direction differ.
 - `index.html` — Home (banner → welcome → circular tile nav → footer)
 - `about.html` — About
 - `episodes.html` — Episodes (auto-pulled from RSS, Question Mark filtered out)
-- `submit.html` — Ask a Question (mailto form)
 - `subscribe.html` — Subscribe (platform links)
 
 ## Graphics — placeholders, replace before launch
@@ -67,7 +66,6 @@ ask him to retitle. Set `FILTER_ENABLED = false` to show the whole channel.
 - [ ] Domain: replace `https://YOUR-DOMAIN-HERE` in every `.html`
       (canonical + og/twitter tags), `sitemap.xml`, `robots.txt`;
       add a `CNAME` file if using a custom domain
-- [ ] `submit.html`: set `SHOW_EMAIL` (currently `CHANGE-ME@example.com`)
 - [ ] Review copy marked `<!-- COPY REVIEW -->` in `index.html` and `about.html`
 - [ ] Confirm the footer graphic keeps the "Built by Covenant Creation & Design" credit
 - [ ] Add a Google Search Console verification tag if wanted (QM's was removed)
