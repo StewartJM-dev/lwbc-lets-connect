@@ -373,7 +373,6 @@ section h2 {
   height: 140px;
   object-fit: cover;
   border-radius: 3px;
-  filter: grayscale(1);
 }
 
 .about-copy p { margin: 0 0 18px; color: var(--ink-soft); }
